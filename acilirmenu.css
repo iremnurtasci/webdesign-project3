@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:wght@400;500;600&display=swap');
+
+.topnav ul{
+	clear: both;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #D14922;
+	overflow: hidden;
+	border: none;
+	font-family: Playfair;
+    font-weight: 500;
+	
+}
+
+.topnav li{
+	width: 33%;
+	float: left;
+	text-align: center;
+	font-size: 20px;
+
+
+}
+
+.topnav li a{
+	text-decoration: none;
+	display: block;
+	color: #000000;
+	padding: 10px;
+
+	
+}
+
+.topnav li a:hover{
+	background-color: #000000;
+	color: #ffffff;
+
+}
+
+.active{
+	background-color: #0168A2;
+}
+
+.gizlimenu{
+	width: 33%;
+	display: none;
+	position: absolute;
+	border-width: 0px;
+	background-color: #D14922;
+}
+.goster:hover .gizlimenu{
+ display: block;
+}
+

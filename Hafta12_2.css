@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:wght@400;500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    border: 3px solid #000000;
+}
+
+.mainheader{
+    font-family: Playfair;
+    font-weight: 600;
+    display: flex;
+    padding: 5px;
+    background-color: #D14922;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header0{
+    width: 50%;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: right;
+    padding-right: 10px;
+
+    
+}
+
+.header1{
+    width: 50%;
+    text-align: left;
+    color: #000000;
+    padding-left: 10px;
+    background-color: #0168A2;
+}
+
+.resim{
+    width: 30%;
+    border: 2px solid #000000;
+    padding: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+
+}
+.resimler{
+  display: flex;
+  justify-content: space-between;
+}
+
+.resim1, .resim2, .resim3 {
+  width: 25%;
+  height: 300px;
+  border: 2px solid #000000;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+
+.row{
+    padding: 10px;
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: Playfair;
+    font-weight: 400;
+    background-color: #DDDEE1;
+
+   
+}
+
+
+.yazi{
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.icbuton{
+    padding: 7px 20px;
+    background-color: #D14922;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: none;
+    color: #000000;
+    font-family: Playfair;
+    font-weight: 500;
+    
+}
+.icbuton:hover{
+    background-color: #0168A2;
+    color: #000000;
+}
+
+
+.mainfooter{
+    background-color: #D14922;
+    border-top: 2px solid #000000;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    font-family: Playfair;
+    font-weight: 500;
+}
+
+.first{
+    width: 32%;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+
+}
+.second{
+    text-align: center;
+    color: #000000;
+    width: 36%;
+}
+
+.third{
+    width: 32%;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
